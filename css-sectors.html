@@ -8,16 +8,61 @@
     <style>
         div{
             background-color: blueviolet;
-            height:10cm
+            height:5em;
+            border: 1px solid black;
     
         }
+        .second-para{
+            background-color: pink;
+            height:2em
+
+        }
+
+        #highlight {
+            color:brown;
+        }
+        
+        .third-para{
+            background-color:whitesmoke;
+            height:5em;
+        }
+        input[typle="text"]:focus{
+            background-color: greenyellow;
+            outline: 2em;
+        }
+        section > p{
+            background-color: aqua;
+        }
+        div,section{
+            border: 2px solid red;
+            margin: 2em;
+        }
     </style>
-    <link rel="stylesheet" href="styles.css"
-    ">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
+    <input type="text" placeholder="username">
+    
     <div>
-        meow meow meow meow moew meow meow 
+        <section>
+            <p>what is going on my friend meow</p>
+
+        </section>
+
+        meow meow meow 1 and 2 and 3
+    </div>
+
+
+    <div class="second-para">
+        <span id="highlight">hello it is me .</span>
+        meow meow meow meow meow meow meow meow 
+
+    </div>
+
+    <div class="third-para">
+        me you and i
+
     </div>
 </body>
 </html>
