@@ -10,6 +10,7 @@
     <header>
       <a href="index.html">Home</a>
       <a href="photo-gallery.html">photo-gallery</a>
+      <link rel="stylesheet" href="css/styles.css">
 
     </header>
     <main>
@@ -94,9 +95,47 @@
 
       <span>span content</span>
       next content
+      <hr>
+      <h2>Forms</h2>
+
+      <form action="">
+        <label for="">Email</label>
+        <input id="email" type="text" name="email" placeholder="Enter Email">
+
+        <label for="Password">Password</label>
+        <input type="Password" name="Password" id="Password" placeholder="Enter Password">
+
+        <input type="Checkbox" name="rememberMe" id="remember-me">
+        <label for="remember-me">Remember Me</label>
+
+      </form>
+
+      <hr>
+
+      <form action="">
+        <label for="department">Department</label>
+        <select name="department" id="department" vaule="pr">
+          <option value="">Select...</option>
+          <option value="hr">Human Resources</option>
+          <option value="pr">Public Relations</option>
+          <option value="cr">Customer Support</option>
+        </select>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="20" rows="5">text here</textarea>
+        
+        <p>Tell us how you Found Out About Us.</p>
+        <input type="radio" name="refferral-source" id="internet">
+        <label for="radio">Internet Ad</label>
+        <input type="radio" name="refferral-source" id="tv-ad">
+        <label for="radio">Television</label>
+        <input type="radio" name="refferral-source" id="social-media">
+        <label for="radio">Social Media</label>
+      
+      </form>
     </main>
     <footer>
       <a href="">Test Link</a>
+
     </footer>
   </body>
 </html>
